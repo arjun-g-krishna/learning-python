@@ -57,7 +57,6 @@ if cpuscore == huscore:
     print("The game ends in a tie with each scoring %d" %(cpuscore))
 elif cpuscore > huscore:
     print("CPU wins the game!")
-    print("Score CPU: %d You :%d" %(cpuscore,huscore))
 elif cpuscore < huscore:
     print("You win the game!")
-    print("Score CPU: %d You :%d" %(cpuscore,huscore))
+print("Score CPU: %d You :%d" %(cpuscore,huscore))    
